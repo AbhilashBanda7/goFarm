@@ -137,67 +137,15 @@ npm run dev
 ---
 
 ## 🔗 API Endpoints
-
-### **Authentication**
-| Endpoint          | Method | Description                          |
-|-------------------|--------|--------------------------------------|
-| `/api/auth/register` | POST   | Register a new user (farmer or buyer) |
-| `/api/auth/login`    | POST   | Login and generate JWT token         |
-| `/api/auth/logout`   | POST   | Logout and invalidate JWT token      |
-
-### **Crop Prediction & Management**
 | Endpoint          | Method | Description                          |
 |-------------------|--------|--------------------------------------|
 | `/api/predict`    | POST   | AI-based crop prediction model       |
 | `/api/crops`      | GET    | Fetch available crops                |
-| `/api/crops/add`  | POST   | Add a new crop listing (for farmers) |
-| `/api/crops/:id`  | GET    | Fetch details of a specific crop     |
-| `/api/crops/:id`  | PUT    | Update a crop listing                |
-| `/api/crops/:id`  | DELETE | Delete a crop listing                |
-
-### **Marketplace**
-| Endpoint          | Method | Description                          |
-|-------------------|--------|--------------------------------------|
 | `/api/market`     | GET    | Get market price trends              |
-| `/api/market/buy` | POST   | Place an order for crops             |
-| `/api/market/orders` | GET | Fetch all orders for a user          |
-| `/api/market/orders/:id` | GET | Fetch details of a specific order    |
-
-### **Shop for Farmers**
-| Endpoint          | Method | Description                          |
-|-------------------|--------|--------------------------------------|
-| `/api/products`   | GET    | Fetch farming products               |
-| `/api/products/:id` | GET  | Fetch details of a specific product  |
-| `/api/products/add` | POST | Add a new product to the shop        |
-| `/api/products/:id` | PUT  | Update a product listing             |
-| `/api/products/:id` | DELETE | Delete a product listing            |
-
-### **Cart**
-| Endpoint          | Method | Description                          |
-|-------------------|--------|--------------------------------------|
-| `/api/cart`       | GET    | Fetch cart items for a user          |
-| `/api/cart/add`   | POST   | Add an item to the cart              |
-| `/api/cart/:id`   | DELETE | Remove an item from the cart         |
-| `/api/cart/checkout` | POST | Checkout and place an order         |
-
-### **Voice Assistant**
-| Endpoint          | Method | Description                          |
-|-------------------|--------|--------------------------------------|
+| `/api/weather`    | GET    | Fetch weather data for a location    |
 | `/api/voice`      | POST   | Process voice queries (NLP)          |
-
-### **Dashboard & Analytics**
-| Endpoint          | Method | Description                          |
-|-------------------|--------|--------------------------------------|
-| `/api/dashboard`  | GET    | Fetch dashboard data (crop analysis, tasks, etc.) |
-| `/api/analytics`  | GET    | Fetch market insights and trends     |
-
-### **User Management**
-| Endpoint          | Method | Description                          |
-|-------------------|--------|--------------------------------------|
-| `/api/users`      | GET    | Fetch all users (admin only)         |
-| `/api/users/:id`  | GET    | Fetch details of a specific user     |
-| `/api/users/:id`  | PUT    | Update user profile                  |
-| `/api/users/:id`  | DELETE | Delete a user (admin only)           |
+| `/api/products`   | GET    | Fetch farming products               |
+| `/api/orders`     | POST   | Place an order                       |
 
 ---
 
