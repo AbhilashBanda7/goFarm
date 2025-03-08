@@ -1,7 +1,6 @@
 
 # 🌾 GoFarm - Smart Farming Solution
 
-![GoFarm Banner](./assets/banner.png)
 
 ## 🚀 Project Overview
 GoFarm is a **full-stack smart farming platform** designed to empower farmers and buyers with advanced tools and insights. The platform includes:
@@ -149,24 +148,7 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-![Farmer Home](./assets/farmer_home.png)
-![Buyer Home](./assets/buyer_home.png)
-![Crop Prediction](./assets/crop_prediction.png)
-![Marketplace](./assets/marketplace.png)
-![Dashboard](./assets/dashboard.png)
 
----
-
-## 🤝 Contributors
-👤 **Your Name**  
-GitHub: [yourusername](https://github.com/yourusername)  
-Email: your.email@example.com  
-
-👤 **Contributor 2**  
-GitHub: [contributor2](https://github.com/contributor2)  
-
----
 
 ## 📌 Future Improvements
 🔹 **Mobile App**: Develop a cross-platform mobile app for better accessibility.  
@@ -175,19 +157,6 @@ GitHub: [contributor2](https://github.com/contributor2)
 🔹 **Multi-Language Support**: Add support for regional languages.  
 🔹 **Pest Detection**: Use image recognition to detect pests and diseases.  
 
----
-
-## 📜 License
-This project is licensed under the [MIT License](./LICENSE).
-
----
-
-## 🤝 How to Contribute
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeatureName`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeatureName`).
-5. Open a pull request.
 
 ---
 
@@ -199,17 +168,6 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-## 📧 Contact
-For questions or feedback, reach out to:  
-**Your Name**  
-Email: your.email@example.com  
-LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)  
-GitHub: [yourusername](https://github.com/yourusername)  
-
----
-
-## 🚀 Live Demo
-Check out the live demo of the project: [GoFarm Live Demo](https://gofarmdemo.com)
 
 
 
